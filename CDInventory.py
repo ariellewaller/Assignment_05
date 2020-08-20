@@ -69,7 +69,7 @@ while True:
             for i in range(len(lstTbl)): 
                 if lstTbl[i]['ID'] == delValue:
                     del(lstTbl[i])
-                    print(f'Your new table consists of: {lstTbl}')
+                    break
             for row in lstTbl: 
                 print(*row.values(), sep = ', ')
         else:
